@@ -6,7 +6,6 @@
 
 /*****************************************
 Table Of Contents:
-
 01. General Styles
 02. Preloader
 03. Navigation
@@ -32,7 +31,6 @@ Table Of Contents:
 
 /*****************************************
 Colors:
-
 - Backgrounds - light gray #fbfbfb
 - Background - dark blue #153e52
 - Backgrounds navbar, footer - dark gray #113448
@@ -46,11 +44,19 @@ Colors:
 /******************************/
 /*     01. General Styles     */
 /******************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body,
 html {
     width: 100%;
 	height: 100%;
 }
+.animate__bounce {
+	--animate-duration: 1s;
+}
+.animate__backInRight {
+	--animate-duration: 3s;
+}
+
 
 body, p {
 	color: #787976; 
@@ -64,7 +70,12 @@ body, p {
 .p-small {
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 }
+.logo{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	
 
+}
 .p-heading {
 	margin-bottom: 3.5rem;
 	text-align: center;
